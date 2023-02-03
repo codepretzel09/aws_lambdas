@@ -1,0 +1,1 @@
+This function uses the describe_vpn_connections method of the EC2 client to get a list of current VPN connections. It then loops through the list and prints the connection details for each connection. You can modify this function to suit your specific needs.

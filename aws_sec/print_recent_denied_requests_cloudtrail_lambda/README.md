@@ -1,0 +1,1 @@
+This function uses the boto3 library to access the CloudTrail service, and then uses the lookup_events method to search for events with the name "AccessDenied". The events that are returned are then printed to the console.

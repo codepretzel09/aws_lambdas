@@ -1,0 +1,3 @@
+To use this function, you will need to have at least one Amazon S3 bucket set up, as well as an Amazon SES email address that is authorized to send emails. Additionally, you will need to add a trigger for this function in the AWS Lambda console so that it is invoked whenever an object is deleted from any S3 bucket.
+
+You can also customize this function to send the alert to multiple email addresses, or to include additional information in the alert message.

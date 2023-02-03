@@ -1,0 +1,1 @@
+This function will list the access keys for all IAM users and check if any of the keys have not been used since the date specified in the aged_date variable. If a key is considered "aged", you can add code to disable it, send a notification, or take any other appropriate action.

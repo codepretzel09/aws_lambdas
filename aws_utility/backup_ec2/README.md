@@ -1,0 +1,1 @@
+In this example, the function uses the boto3 library to connect to EC2 and describe the instances that have a tag with the key Name and the value MyWindowsServer. It then loops through these instances, creates a snapshot of the root volume, and tags the snapshot with the same Name tag as the instance.

@@ -1,0 +1,1 @@
+This function uses the boto3 library to interact with Amazon SES and send an email with the details of the newly created IAM key. The function retrieves the key ID from the event data and includes it in the email message.

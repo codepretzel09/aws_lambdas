@@ -1,0 +1,1 @@
+This Lambda function lists all IAM groups in your AWS account, and then checks if each group has any users. If a group has no users, it is added to a list of unused groups, which is then returned by the function.

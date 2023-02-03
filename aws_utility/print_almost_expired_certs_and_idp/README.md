@@ -1,0 +1,1 @@
+In this modified version of the function, we use the datetime module to get the current time and calculate the expiration threshold as 30 days from the current time. We then iterate through the lists of certificates and identity providers and only print the expiration date if it is within the next 30 days.

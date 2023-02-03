@@ -1,0 +1,3 @@
+You will need to replace the is_underutilized method with your own logic for determining if an instance is underutilized. You can use the AWS CloudWatch API to retrieve metrics for your instances and determine if they are being underutilized based on factors such as CPU utilization, network traffic, etc.
+
+Once you have implemented your function, you can test it by using the AWS Lambda console or the AWS CLI. You can also set up triggers to automatically run your function on a schedule (e.g. daily, weekly, etc.) to regularly scan for wasted resources in your AWS environment.

@@ -1,0 +1,1 @@
+This lambda function will list all access keys for the current AWS account and check when each key was last used. If a key was used within the specified time period (in this case, 2 hours), it will be printed to the console. You can modify the time period to your liking by changing the time_period variable.
